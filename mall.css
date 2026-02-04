@@ -150,20 +150,27 @@ a:active {
 
 .sidatsida {
   display: flex;
-  justify-content: space-around;
-  gap: 1%;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 7rem;              
   text-align: center;
   align-items: center;
+  max-width: 100%;           
+  padding: 0 1rem;           
+  box-sizing: border-box;
 }
 
 .ikonbox {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  margin-left: 1.75rem; 
-  margin-right: 1.75rem;
+  text-align: center;
+  margin: 0.5rem;            
+  flex: 1 1 180px;          
+  max-width: 220px;         
+  box-sizing: border-box;
 }
+
 
 .footer {
   background-color: #A0C242;
