@@ -30,7 +30,6 @@ body {
 }
 
 .rundadbild {
-  border-style: ;
   border-radius: 2.5rem; 
   float: right;
   margin-bottom: 6%;
@@ -111,6 +110,7 @@ a:active {
 .högermargin {
   margin-right: 6rem;    
 }
+
 .vänstermargin {
   margin-left: 5rem;    
 }
@@ -124,9 +124,9 @@ a:active {
   gap: 1.25rem;        
 }
 
-.sammastorlek{
-	width: 18rem;
-	height: 18rem;
+.sammastorlek {
+  width: 18rem;
+  height: 18rem;
 }
 
 .buketterknapp {
@@ -147,8 +147,19 @@ a:active {
   background-color: #6b8530;     
 }
 
-
 .sidatsida {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 7rem;              
+  text-align: center;
+  align-items: center;
+  max-width: 100%;           
+  padding: 0 1rem;           
+  box-sizing: border-box;
+}
+
+.sidatsidashop {
   display: flex;
   flex-wrap: wrap;           
   justify-content: center;   
@@ -170,7 +181,6 @@ a:active {
   max-width: 220px;         
   box-sizing: border-box;
 }
-
 
 .footer {
   background-color: #A0C242;
