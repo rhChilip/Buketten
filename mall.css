@@ -80,6 +80,14 @@ a:active {
   left: 0;
 }
 
+.konstruktion {
+  display: block;
+  height: 25rem;         
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+}
+
 .topnav a {
   display: inline-block;
   color: #819f2c;
