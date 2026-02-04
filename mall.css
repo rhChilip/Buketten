@@ -1,0 +1,208 @@
+body {
+  background-color: #E4FFCF;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.ikoner {
+  width: auto;
+  height: 50%;
+}
+
+.detaljikoner {
+  width: auto;
+  height: 65%;
+}
+
+.dot {
+  height: 6.25rem;      
+  width: 6.25rem;        
+  background-color: #FCFFE5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.rundadbild {
+  border-style: ;
+  border-radius: 2.5rem; 
+  float: right;
+  margin-bottom: 6%;
+  width: 36%;
+}
+
+a:link {
+  color: #FCFFE5;
+  font-family: Candara;
+  font-size: 1.25rem;   
+}
+
+a:visited {
+  color: #FCFFE5;
+}
+
+a:hover {
+  color: #FCFFE5;
+}
+
+a:active {
+  color: #FCFFE5;
+}
+
+.topnav {
+  background-color: #FCFFE5;
+  overflow: hidden;
+  padding: 1rem 2rem;   
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem;            
+}
+
+.logo {
+  height: 6rem;         
+  margin-right: 0rem;   
+  width: auto;
+  bottom: 0;
+  left: 0;
+}
+
+.logob {
+  height: 6.75rem;         
+  margin-right: 0rem;   
+  width: auto;
+  bottom: 0;
+  left: 0;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #819f2c;
+  font-family: Candara;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.25rem 1.5rem;   
+  text-decoration: none;
+  font-size: 1.3rem;        
+  border: 0.125rem solid transparent;
+  border-radius: 0.6rem;
+  transition: background-color 0.3s ease; 
+}
+
+.topnav a:hover {
+  background-color: #FEFFED;
+  border: 0.125rem solid #E6E8D5;
+  border-radius: 0.6rem;
+}
+
+.topnav a.active {
+  background-color: #FEFFED;
+  color: #819f2c;
+  border: 0.125rem solid #E6E8D5;
+  border-radius: 0.6rem;
+}
+
+.högermargin {
+  margin-right: 6rem;    
+}
+.vänstermargin {
+  margin-left: 5rem;    
+}
+
+.topmargin {
+  margin-top: 5rem;    
+}
+
+.container {
+  align-items: center;
+  gap: 1.25rem;        
+}
+
+.sammastorlek{
+	width: 18rem;
+	height: 18rem;
+}
+
+.buketterknapp {
+  display: inline-block;
+  background-color: #819f2c;     
+  color: white;
+  padding: 1.2rem 6rem;
+  font-family: Candara, sans-serif;
+  font-size: 2rem !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6rem;           
+  margin-top: 2rem;
+  margin-left: 8.8rem;
+}
+
+.buketterknapp:hover {
+  background-color: #6b8530;     
+}
+
+
+.sidatsida {
+  display: flex;
+  justify-content: space-around;
+  gap: 1%;
+  text-align: center;
+  align-items: center;
+}
+
+.ikonbox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 1.75rem; 
+  margin-right: 1.75rem;
+}
+
+.footer {
+  background-color: #A0C242;
+  padding: 4% 0;
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+}
+
+p {
+  color: #819f2c;
+  font-family: Candara;
+  font-size: 1.35rem;   
+}
+
+p2 {
+  color: #FCFFE5;
+  font-family: Candara;
+  font-size: 1.25rem;
+}
+
+h1 {
+  color: #819f2c;
+  font-family: Candara;
+  font-size: 2.3rem;   
+}
+
+h2 {
+  color: #819f2c;
+  font-family: Candara;
+  font-size: 3rem;   
+  font-weight: bold;
+}
+
+h3 {
+  color: #FCFFE5;
+  font-family: Candara;
+  font-size: 2.1rem;   
+}
